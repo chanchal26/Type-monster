@@ -6,25 +6,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 </head>
 
-<body>
-    <div>
-        <h1>What is the difference between local storage and session storage?</h1>
-        <p>SessionStorage is similar to LocalStorage. The difference is that while data in localStorage doesn't expire,
-            data in sessionStorage is cleared when the page session ends.Session storage is destroyed once the user
-            closes the browser whereas, Local storage stores data with no expiration date.</p>
-        <h1>What is difference between global scope and local scope?</h1>
-        <p>Global Variables − A global variable has a global scope which means it can be defined anywhere in your
-            JavaScript code. Local Variables − A local variable will be visible only within a function where it is
-            defined. Function parameters are always local to that function.</p>
-        <h1>How event loop works in javascript?</h1>
-        <p>The Event Loop has one simple job — to monitor the Call Stack and the Callback Queue. If the Call Stack is
-            empty, the Event Loop will take the first event from the queue and will push it to the Call Stack, which
-            effectively runs it. Such an iteration is called a tick in the Event Loop.</p>
-        <h1></h1>
-        <p></p>
+<body class="container">
+    <div class="text-center mt-5">
+        <h1 class="text-center m-5 p-3 text-danger">Blog</h1>
+        <div>
+            <h1 class="text-success">What is the difference between local storage and session storage?</h1>
+            <p>SessionStorage is similar to LocalStorage. The difference is that while data in localStorage doesn't
+                expire,
+                data in sessionStorage is cleared when the page session ends.Session storage is destroyed once the user
+                closes the browser whereas, Local storage stores data with no expiration date.</p>
+        </div>
+        <div class="pt-3">
+            <h1 class="text-success">What is difference between global scope and local scope?</h1>
+            <p>Global Variables − A global variable has a global scope which means it can be defined anywhere in your
+                JavaScript code. Local Variables − A local variable will be visible only within a function where it is
+                defined. Function parameters are always local to that function.</p>
+        </div>
+        <div class="pt-3">
+            <h1 class="text-success">How event loop works in javascript?</h1>
+            <p>The Event Loop has one simple job — to monitor the Call Stack and the Callback Queue. If the Call Stack
+                is
+                empty, the Event Loop will take the first event from the queue and will push it to the Call Stack, which
+                effectively runs it. Such an iteration is called a tick in the Event Loop.</p>
+        </div>
+        <div class="pt-3">
+            <h1 class="text-success">What is the type of undefined in JavaScript?</h1>
+            <p>A variable that has not been assigned a value is of type undefined . A method or statement also returns
+                undefined if the variable that is being evaluated does not have an assigned value. A function returns
+                undefined if a value was not returned .</p>
+        </div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
